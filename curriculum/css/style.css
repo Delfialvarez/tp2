@@ -1,0 +1,187 @@
+
+body { font-family: 'Montserrat', sans-serif;  margin: 0%;}
+
+html  {scroll-behavior: smooth; box-sizing: border-box;}
+
+header { width: 100%; margin: 0 auto;
+padding: 1% 0;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color:  rgba(200, 202, 63, 0.856)}
+
+        .header nav{
+    
+            width: 15%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-content: center; margin-right: 7%;}
+
+            .header nav a{
+               
+                color: black;
+            }
+            .header nav a:hover{
+                color: rgba(189, 103, 197, 0.753) }
+
+            nav {padding: 4%;}
+
+            nav a { padding: 8px;}
+
+
+
+
+.logo {width: 28%; padding: 1%; margin-left: 7%}
+
+.contenedor { width: 60%;
+    margin: 0 auto;}
+
+.cajas { display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+.fotocv {width: 50%;}
+
+.texto { font-size: 20px; padding: 2%; align-content: center; border-radius: 3%;
+     border-color: black; margin-top: 5%;  line-height: 2em;}
+
+.descripcion { width: 90%;
+    margin: 0 auto; text-align: center; font-size: 19px; line-height: 1.4em;}
+
+.txtdescripcion {color: black; padding: 3%; }
+
+
+.cajacontenedora { width: 80%;
+    margin: 0 auto; padding: 1%;}
+
+.cajapremio {  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ box-sizing: border-box; padding: 2%;}
+
+.canciones {padding: 2%; text-align: center; border-radius: 2%;line-height: 1.5em; background-color: rgba(200, 202, 63, 0.856);}
+
+.premios { padding: 2%; text-align:justify; border-radius: 2%; line-height: 2em; background-color:  rgba(200, 202, 63, 0.856);}
+
+.conteiner { width: 100%;
+    margin: 0 auto;}
+
+.cajacancion {display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+ iframe { width: 400px; height: 315px; margin: auto;display: block; padding: 2%; box-sizing: border-box;}
+
+.txt {align-content: center;}
+
+
+
+.footer {width: 100%}
+
+.txtfooter {text-align: center; font-size: 12px;background-color: rgba(200, 202, 63, 0.856); padding: 1%;}
+
+.redes {width: 80%;
+margin: 0 auto;}
+
+.cajaredes {display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between; padding: 4%;}
+
+.icono {font-size: 35px; color: black;}
+
+h1 {text-align: center; font-size: 25px; }
+.txtyoutube {padding: 3%;}
+
+h2 {text-align: center;}
+
+.cajatodo { width: 90%; margin: 0 auto; background-color: rgba(189, 103, 197, 0.753) ;}
+
+
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    
+}
+
+@media screen and (min-width: 581px) and (max-width: 1200px) {
+
+    .header{
+        flex-wrap: wrap; justify-content: center;}
+    
+    .header nav { justify-content: center;}
+
+    body {width: 100%;}
+    .cajatodo {width: 90%;}
+    .logo {width: 50%; padding: 4%; align-items: center; margin-left: 23%;}
+
+    .descripcion { width: 90%;
+        margin: 0 auto; text-align: center; padding: 2%;; font-size: 20px; line-height: 1.2em;}
+
+        .texto { font-size: 22px; padding: 2%; align-content: center; border-radius: 3%;
+            border-color: black; margin-top: 5%;  line-height: 2em;}
+
+            .cajacancion {display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: space-around;
+                }
+
+     iframe { width: 500px; height: 315px; margin: auto;display: block; padding: 2%; box-sizing: border-box;}
+     .canciones {font-size: 17px; margin-top: 5%; width: 90%;}
+    .premios {font-size: 17px; text-align: justify; margin-top: 5%; width: 90%;}
+
+    .cajas { width: 100%;
+        }
+   
+}
+
+
+
+
+
+@media screen and (max-width: 580px) {
+
+    .header{
+        flex-wrap: wrap; justify-content: center;}
+    
+    .header nav { justify-content: center;}
+
+
+    .cajatodo {width: 90%;}
+
+    .logo {width: 50%; padding: 4%; align-items: center; margin-left: 23%;}
+
+    .texto { font-size: 17px; padding: 2%; align-content: center; border-radius: 3%;
+        border-color: black; margin-top: 5%;  line-height: 2em;}
+    
+        .cajas {
+            flex-wrap: wrap;
+           
+            }
+    .fotocv {width: 50%; }
+
+    .canciones {font-size: 17px; margin-top: 5%; width: 90%;}
+    .premios {font-size: 17px; text-align: justify; margin-top: 5%; width: 90%;}
+
+    h2 {font-size: 17px;}
+
+.foto {width: 200%; box-sizing: border-box; margin: 0 auto;}
+
+.icono {font-size: 25px; margin-bottom: 10px;}
+
+.conteiner {width: 60%; margin: 0 auto;}
+iframe { width: 300px; height: 315px; margin: auto;display: block; padding: 2%; box-sizing: border-box;}
+
+.contenedor { width: 80%;
+    margin: 0 auto;}
+
+}
+    
